@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de-AT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Indietruhe | Kontakt</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pages.css">
+</head>
+
+<body>
+  <header class="py-3">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a class="d-flex align-items-center text-decoration-none" href="startseite.html">
+        <div class="d-flex align-items-center">
+          <img id="logo" src="logo.svg" alt="Logo">
+          <span class="mb-0 brand-title">Indietruhe</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link active" href="startseite.html">Alle Spiele</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Über uns</a></li>
+          <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="bg-light">
+    <div class="container pt-5">
+      <h1 class="mb-3">Kontakt</h1>
+      <form class="p-4" aria-label="Contact form">
+        <div class="mb-3">
+          <label for="contactSubject" class="form-label">Betreff</label>
+          <input type="text" class="form-control" id="contactSubject" placeholder="Betreff">
+        </div>
+
+        <div class="mb-3">
+          <label for="contactEmail" class="form-label">Wir brauchen deine E-Mail-Adresse, um dir antworten zu können</label>
+          <input type="email" class="form-control" id="contactEmail" placeholder="E-Mail">
+        </div>
+
+        <div class="mb-3">
+          <label for="contactMessage" class="form-label">Nachricht</label>
+          <textarea class="form-control" id="contactMessage" rows="5" placeholder="Schreibe deine Nachricht ..."></textarea>
+        </div>
+        
+        <div class="d-flex justify-content-end">
+          <button type="submit" class="btn btn-primary">Abschicken</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h3 class="fw-bold mb-4">Indietruhe</h3>
+      <div class="d-flex justify-content-between">
+        <div class="d-flex flex-column">
+          <a href="startseite.html">Alle Spiele</a>
+          <a href="startseite.html#highlights">Unsere Highlights</a>
+          <a href="startseite.html#neu">Neue Releases</a>
+          <a href="startseite.html#abenteuer">Abenteuer</a>
+          <a href="startseite.html#aufbau">Aufbau</a>
+          <a href="startseite.html#strategie">Strategie</a>
+        </div>
+        <div class="d-flex flex-column">
+          <a href="datenschutz.html">Datenschutzerklärung</a>
+          <a href="barrierefreiheit.html">Barrierefreiheitserklärung</a>
+          <a href="urheberrecht.html">Urheberrecht</a>
+          <a href="lizenz.html">Lizenzvereinbarung</a>
+        </div>
+        <div class="d-flex flex-column">
+          <a href="about.html">Über uns</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between mt-3">
+        <small>© 2026 Indietruhe GmbH</small>
+        <small>Mit ♥ für Indie-Entwickler gemacht</small>
+      </div>
+    </div>
+  </footer>
+
+</body>
